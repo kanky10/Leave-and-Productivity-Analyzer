@@ -1,7 +1,7 @@
 "use client";
 
 import FileUpload from "../components/FileUpload";
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
 
 export default function HomePage() {
   return (
