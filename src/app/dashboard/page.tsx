@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Navbar from "@/components/Navbar";
-import HoursBarChart from "@/components/charts/HoursBarChart";
-import AttendancePieChart from "@/components/charts/AttendancePieChart";
-import DailyLineChart from "@/components/charts/DailyLineChart";
+import Navbar from "../../components/Navbar";
+import HoursBarChart from "../../components/charts/HoursBarChart";
+import AttendancePieChart from "../../components/charts/AttendancePieChart";
+import DailyLineChart from "../../components/charts/DailyLineChart";
 
 type DailyRow = {
   date: string;
@@ -249,4 +249,4 @@ function Card({
       <p className="text-2xl font-bold">{value}</p>
     </div>
   );
-}
+}   
